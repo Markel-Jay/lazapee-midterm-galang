@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    border-bottom: 1px solid #cacaca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logos{
+    margin: 20px;
+}
+
+.middle-text{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.middle-text:hover{
+    color: #f95031;
+}
+
+.zzz{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-account{
+    display: flex;
+}
+
+.acc:hover{
+    color: #f95031;
+}
+
+
+/* BODY */
+
+body{
+    background-color: #eff0f5;
+}
+
+.container{
+    background-color: #eff0f5;
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+
+.uuu{
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: white;
+    border: none;
+}
+
+
+
+.product{
+    height: 150px;
+    width: 250px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    color: white;
+    background: #007bff;
+    border-radius: 9px;
+    padding: 5px;
+    white-space: nowrap;
+    width: 80px;
+    height: 25px;
+
+}
+
+.place input{
+    width: 150px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+/* media */
+
+@media  screen and (max-width: 1275px) {
+    .navbar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .navy{
+        padding-bottom: 1.5rem;
+    }
+    
+    .account{
+        padding: 0;
+        padding-bottom: 0.9rem;
+    }
+
+    .pic img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .box{
+        margin: 20px;
+    }
+
+    .container{
+        margin-bottom: 200px;
+    }
+    }
